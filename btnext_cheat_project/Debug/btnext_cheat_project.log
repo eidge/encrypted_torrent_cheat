@@ -1,0 +1,33 @@
+﻿Build started 12/10/2012 3:28:01 PM.
+     1>Project "C:\Users\eidge\Documents\Visual Studio 2010\Projects\btnext_cheat_project\btnext_cheat_project\btnext_cheat_project.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\btnext_cheat_project.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\btnext_cheat_project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\libraries\boost\boost_1_47_0 /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bt_server.cpp main.cpp
+         main.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+         bt_server.cpp
+         Please define _WIN32_WINNT or _WIN32_WINDOWS appropriately. For example:
+         - add -D_WIN32_WINNT=0x0501 to the compiler command line; or
+         - add _WIN32_WINNT=0x0501 to your project's Preprocessor Definitions.
+         Assuming _WIN32_WINNT=0x0501 (i.e. Windows XP target).
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\eidge\Documents\Visual Studio 2010\Projects\btnext_cheat_project\Debug\btnext_cheat_project.exe" /NOLOGO /LIBPATH:C:\libraries\boost\boost_1_47_0\stage\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\btnext_cheat_project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\eidge\Documents\Visual Studio 2010\Projects\btnext_cheat_project\Debug\btnext_cheat_project.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\eidge\Documents\Visual Studio 2010\Projects\btnext_cheat_project\Debug\btnext_cheat_project.lib" /MACHINE:X86 Debug\bt_server.obj
+         Debug\main.obj
+         btnext_cheat_project.vcxproj -> C:\Users\eidge\Documents\Visual Studio 2010\Projects\btnext_cheat_project\Debug\btnext_cheat_project.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\eidge\Documents\Visual Studio 2010\Projects\btnext_cheat_project\Debug\btnext_cheat_project.exe;#1" /manifest Debug\btnext_cheat_project.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\btnext_cheat_project.unsuccessfulbuild".
+         Touching "Debug\btnext_cheat_project.lastbuildstate".
+     1>Done Building Project "C:\Users\eidge\Documents\Visual Studio 2010\Projects\btnext_cheat_project\btnext_cheat_project\btnext_cheat_project.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.65
