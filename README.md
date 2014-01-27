@@ -8,11 +8,17 @@ This proof-of-concept let's you save and intercept requests from your bittorrent
 # How to cheat the tracker?
 
  0- In your hosts file, route all connections from the trackers domain to localhost.
+ 
  1- Open up your bittorrent program.
+ 
  2- Add a new torrent.
+ 
  3- Save the first outcoming request to the tracker (Even though the data is encrypted you know it will tell the tracker you haven't downloaded any parts yet - because you haven't)
+ 
  4- Each time the bittorrent program wants to send data to the tracker drop it and send the first request you saved.
+ 
  5- The tracker will never know how much data you've downloaded.
+ 
  
 # Why is this program not automatic?
 
@@ -22,7 +28,7 @@ This proof-of-concept let's you save and intercept requests from your bittorrent
 
 # This doesn't work
 
- Well this is a proof-of-concept. It's imcomplete on purpose, I don't like cheater, no one likes cheaters.
+ Well this is a proof-of-concept. It's incomplete as it is not supposed to be a cheating tool, I don't like cheaters, no one likes cheaters.
  
  It should ring a bell though.
 
